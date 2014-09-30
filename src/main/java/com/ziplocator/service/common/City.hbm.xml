@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.ziplocator.service.common.City" table="cities">
+        <id column="zip" name="zipCode" type="java.lang.String">
+        </id>
+        <property column="city" name="cityName" type="java.lang.String"/>
+        <property column="state" name="state" type="java.lang.String"/>
+        <property column="latitude" name="latitude" type="java.lang.Float"/>
+        <property column="longitude" name="longitude" type="java.lang.Float"/>
+        <property column="timezone" name="timezone" type="java.lang.Integer"/>
+        <property column="dst" name="dst" type="java.lang.Integer"/>
+        <property column="cityzip" name="cityzip" type="java.lang.String"/>
+        <property column="statecityzip" name="statecityzip" type="java.lang.String"/>
+    </class>
+</hibernate-mapping>

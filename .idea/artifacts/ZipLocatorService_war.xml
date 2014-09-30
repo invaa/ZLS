@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ZipLocatorService:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="locator-webapp.war">
+      <element id="artifact" artifact-name="ZipLocatorService:war exploded" />
+    </root>
+  </artifact>
+</component>
